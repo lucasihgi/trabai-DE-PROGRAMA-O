@@ -50,3 +50,14 @@ li{
 
 .membrosImagem{width: 120px;
 }
+
+.membroIcone{
+    width: 5%;
+}
+.membroDiv{
+    text-align: left;
+}
+.membrosTitulo{
+    text-align: center;
+    padding: 50px;
+}
