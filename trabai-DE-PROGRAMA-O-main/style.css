@@ -48,16 +48,22 @@ li{
     width:50%;
 }
 
-.membrosImagem{width: 120px;
+.membrosImagem{
+    width: 65%;
 }
 
 .membroIcone{
     width: 5%;
 }
 .membroDiv{
+    padding-bottom: 55px;
     text-align: left;
 }
 .membrosTitulo{
     text-align: center;
     padding: 50px;
+}
+.membrosTodos{
+    display: grid;
+    grid-template-columns:10% 20% 20% 20% 20% ;
 }
