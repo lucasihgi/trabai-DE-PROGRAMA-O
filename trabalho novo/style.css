@@ -4,13 +4,21 @@
 }
 
 body{
-    background-color: darkblue;
+    background-color: rgb(0, 0, 0);
     /*cor de fundo*/
     color: ;
     /*cor da letra*/
 }
 
-.principal{
-background-image: url(img/Background.png);
+h1{
+    color:white
+}
 
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height:120vh;
 }
