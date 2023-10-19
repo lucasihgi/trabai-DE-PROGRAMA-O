@@ -21,4 +21,14 @@ h1{
 }
 .container{
     height:120vh;
+    display: grid;
+    grid-template-columns: 10% 10%%;
+}
+
+.container-botao{
+    background-color: blue
+    border-radius: 5px;
+    padding: 2em;
+    color:white;
+    display:block;
 }
