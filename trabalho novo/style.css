@@ -6,12 +6,12 @@
 body{
     background-color: rgb(0, 0, 0);
     /*cor de fundo*/
-    color: ;
+    color: white;
     /*cor da letra*/
 }
 
 h1{
-    color:white
+    color:rgb(255, 255, 255)
 }
 
 .principal{
@@ -22,13 +22,25 @@ h1{
 .container{
     height:120vh;
     display: grid;
-    grid-template-columns: 10% 10%%;
+    grid-template-columns: 50% 60%;
 }
 
 .container-botao{
-    background-color: blue
+    background-color:blue;
     border-radius: 5px;
     padding: 2em;
     color:white;
     display:block;
+    margin-bottom: 3em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 5px solid white;
+}
+.container-imagem{
+    margin: 5em 0 5em 0;
+}
+.container_caixa{
+margin: 75px 100px;
 }
