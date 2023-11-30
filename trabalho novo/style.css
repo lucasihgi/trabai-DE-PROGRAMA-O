@@ -42,5 +42,17 @@ h1{
     margin: 5em 0 5em 0;
 }
 .container_caixa{
-margin: 75px 100px;
+    margin: 75px 100px;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 0em;
+}
+
+.descricao_titulo{
+    color: red;
+}
+.descricao__texto{
+
 }
