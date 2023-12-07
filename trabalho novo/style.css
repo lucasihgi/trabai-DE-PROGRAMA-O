@@ -44,15 +44,36 @@ h1{
 .container_caixa{
     margin: 75px 100px;
 }
-
+s
 .secundario{
     align-items: center;
     margin: 0 0em;
 }
 
 .descricao_titulo{
-    color: red;
-}
-.descricao__texto{
 
+    text-align: center;
+    color: red;
+
+}
+
+.descricao_texto{
+
+    font-size:xx-large
+    padding: 10em;
+
+
+}
+
+.container_descricao{
+
+    padding: 2em;
+
+}
+
+.secundario_botao{
+
+    display: inline-block;
+    padding: 5em;
+    margin-top: 5em;
 }
