@@ -1,5 +1,19 @@
-.titulo-principal{
-    color: blue;
-    text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+:root{
+    --cor-de-fundo: rgb(196, 18, 18);
+    --texto1: #000000;
+    --texto2: #000000;
+    --botao-ativo:#3A375E;
+    --botao:inativo: rgba(58,55,94,05);
+    --texto-fundo:rgb(13, 0, 156);
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    color: var(--texto2);
+    font-family: "Rubik Glitch Pop", system-ui;
+
 
 }
