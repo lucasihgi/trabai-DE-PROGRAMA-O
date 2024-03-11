@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+:root{
+    --cor-de-fundo: rgb(196, 18, 18);
+    --texto1: #000000;
+    --texto2: #000000;
+    --botao-ativo:#3A375E;
+    --botao:inativo: rgba(58,55,94,05);
+    --texto-fundo:rgb(13, 0, 156);
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    color: var(--texto2);
+    font-family: "Rubik Glitch Pop", system-ui;
+}
+.botao{
+    border-radius: 35%;
+    text-align: center;
+    margin: 50px;
+    padding:15px;
+    font-size:30px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.titulo-principal{
+    text-align: center;
+    width: 150ch;
+    font-size: xx-large;
+}
+.botao{
+    font-family: "Lobster", sans-serif;
+    background-color:aquamarine var(--botao-inativo);
+    display: flex;
+    color:blueviolet var(--texto1);
+    justify-content: center
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 70%;
+}
