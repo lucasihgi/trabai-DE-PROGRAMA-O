@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root{
-    --cor-de-fundo: rgb(196, 18, 18);
-    --texto1: #000000;
+    --cor-de-fundo: rgb(197, 0, 0);
+    --texto1: #b40808;
     --texto2: #000000;
-    --botao-ativo:#3A375E;
+    --botao-ativo:#ff7300;
     --botao:inativo: rgba(58,55,94,05);
     --texto-fundo:rgb(13, 0, 156);
 }
@@ -17,7 +17,7 @@ body{
     font-family: "Rubik Glitch Pop", system-ui;
 }
 .botao{
-    border-radius: 35%;
+    border-radius: 30%;
     text-align: center;
     margin: 50px;
     padding:15px;
@@ -39,12 +39,20 @@ body{
 }
 .botao{
     font-family: "Lobster", sans-serif;
-    background-color:aquamarine var(--botao-inativo);
+    background-color:rgb(24, 214, 151) var(--botao-inativo);
     display: flex;
-    color:blueviolet var(--texto1);
-    justify-content: center
+    color:rgb(48, 13, 13);
+    justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 70%;
+    border-radius: 35px;
+}
+.botoes{
+    display: flex;
+}
+.ativo{
+    background: var(--botao-ativo);
+    border-bottom: 4px solid rgb(0, 0, 0);
 }
