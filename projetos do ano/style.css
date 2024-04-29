@@ -50,17 +50,32 @@ body{
     border-radius: 35px;
 }
 
-.botao:last-child{
-    border-radius: 0 40px 40px 0;
+.botoes{
+    display: flex;
+}
 
-.ativo{
+.botao.ativo{
     background: var(--botao-ativo);
     border-bottom: 4px solid rgb(121, 247, 4);
     color: darkblue;
+}
+.aba-conteudo.ativo{
+    display: block;
+}
+.aba-conteudo{
+    display: none;
 }
 
 .aba-texto{
     background-color: var(--texto-fundo);
     padding: 50px;
     border-radius: 0 0 60px 30px;
+}
+.aba-conteudo-titulo-principal{
+    font-size: 40px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+color:var (--texto1);
+
 }
