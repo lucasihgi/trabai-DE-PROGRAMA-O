@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root{
-    --cor-de-fundo: rgb(206, 8, 8);
+    --cor-de-fundo: rgb(0, 0, 0);
     --texto1: #b40808;
     --texto2: #c7e712;
     --botao-ativo:#ff7300;
     --botao-inativo: rgba(58,55,94,05);
-    --texto-fundo:rgb(168, 11, 24);
+    --texto-fundo:rgb(236, 31, 48);
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -80,7 +80,14 @@ color:var (--texto1);
 
 }
 .contador{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
-    padding: 1em;
+    padding: 50px;
+    
+}
+.titulo-principal{
+    color: deeppink;
+}
+.aba-conteudo-titulo-principal{
+    color:rgb(14, 161, 115)
 }
