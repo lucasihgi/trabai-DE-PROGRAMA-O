@@ -4,8 +4,8 @@
 :root{
     --cor-da-letra: white;
     --cor-de-fundo:#1471b8;
-    --fundo-senha:color white;
-    --fundo-texto:#1a3c63; 
+    --fundo-senha: #22629e;
+    --fundo-texto:#fafafa; 
     --borda:#000000;
     --fonte:"Sevillana", cursive;
 }
@@ -31,7 +31,7 @@ body{
 
 .titulo-principal{
 
-    font-size: 50px;
+    font-size: 20px;
     font-family: var(--fonte);
     color: black
 
@@ -52,17 +52,24 @@ body{
 .conteudo-senha{
     margin-top: 50px;
     background: var(--fundo-senha);
-    padding: 100px;
-    border-bottom: 60px solid var(--borda);
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
+    padding: 20px;
+    border-bottom: 20px solid var(--borda);
+    border-radius: 50px;
+    
+
 }
 
 #campo-senha{
 
-    background-color: var(--fundo-senha);
+    background-color: var(--fundo-texto);
     color: var(--cor-da-letra);
-    width: 100px;
-    border: ;
+    width: 70px;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+#campo-senha: :focus{
+
+    outline: none;
 }
 
