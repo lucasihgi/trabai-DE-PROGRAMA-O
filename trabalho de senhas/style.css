@@ -92,3 +92,15 @@ body{
     font-family: var(--fonte2);
     font-size: 28px;
 }
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.parametro-coluna-senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
