@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
 :root{
-    --cor-da-letra: white;
+    --cor-da-letra: rgb(255, 255, 255);
+    --cor-da-letra2: rgb(0, 0, 0,);
     --cor-de-fundo:#1471b8;
     --fundo-senha: #22629e;
     --fundo-texto:#125886; 
@@ -64,7 +65,7 @@ body{
 #campo-senha{
 
     background-color: white;
-    color: var(--cor-da-letra);
+
     width: 70%;
     border-radius: 40px;
     font-size: 30px;
@@ -104,3 +105,21 @@ body{
     justify-content: center;
 }
 
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+.parametro-senha-texto{
+    padding: 50px;
+    border-top: 30px solid var(--borda);
+    border-bottom: 30px solid var(--borda);
+    margin:none;
+}
+
+.parametro-senha-botao{
+    background-color:  var( --fundo-texto);
+    color:rgb(245, 245, 245);
+    padding: 24px;
+    font-size: 28px;
+    cursor: pointer;
+}
