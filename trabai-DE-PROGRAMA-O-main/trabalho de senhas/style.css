@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+:root{
+    --cor-da-letra: rgb(255, 255, 255);
+    --cor-da-letra2: rgb(0, 0, 0,);
+    --cor-de-fundo:#1471b8;
+    --fundo-senha: #22629e;
+    --fundo-texto:#125886; 
+    --borda:#000000;
+    --fonte:"Sevillana", cursive;
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte)
+
+}   
+
+.conteudo{
+    
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.img{
+
+    width: 80px;
+}
+
+.titulo-principal{
+
+    font-size: 20px;
+    font-family: var(--fonte);
+    color: black
+
+}
+
+.titulo-secundario{
+
+    font-size: 23px;
+    
+
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha{
+    margin-top: 50px;
+    background: var(--fundo-senha);
+    padding: 20px;
+    border-bottom: 20px solid var(--borda);
+    border-radius: 50px;
+    
+
+}
+
+#campo-senha{
+
+    background-color: white;
+
+    width: 70%;
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+#campo-senha:focus{
+
+    outline: none;
+}
+
+.conteudo{
+    width: 1200px;
+    margin:0 auto;
+
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 10px solid var(--borda);
+    margin-top: 150px;
+    padding: 22px;
+}
+
+.parametro-titulo{
+    font-family: var(--fonte2);
+    font-size: 28px;
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.parametro-coluna-senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+.parametro-senha-texto{
+    padding: 50px;
+    border-top: 30px solid var(--borda);
+    border-bottom: 30px solid var(--borda);
+    margin:none;
+}
+
+.parametro-senha-botao{
+    background-color:  var( --fundo-texto);
+    color:rgb(245, 245, 245);
+    padding: 24px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+label{
+    font-size: 40px;
+}
+.parametro-senha-checkbox{
+ 
+
+}
