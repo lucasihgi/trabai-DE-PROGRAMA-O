@@ -123,3 +123,30 @@ body{
     font-size: 28px;
     cursor: pointer;
 }
+
+label{
+    font-size: 40px;
+}
+.checkbox{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.barra{
+    background-color: black;
+    height: 25px;
+    width: 100%;
+}
+
+.forte{
+    height: 25px;
+    width: 100%;
+    background-color:red;
+    position: relative;
+    bottom: 25px;
+}
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}

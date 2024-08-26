@@ -8,8 +8,7 @@
     <title>Gerador de senhas aleatórias</title>
     <link rel="stylesheet" href="style.css">
 
-       
-        
+
 </head>
 <body>
     <section class="conteudo"> 
@@ -37,21 +36,40 @@
                         </div>
                     </div>
                     <div class="parametro-senha">
-                        <h4 class="parametro-senha-tirulo">Força da senha </h4>
+                        <h4 class="parametro-senha-titulo">Força da senha </h4>
+                        <div class="barra"></div>
+                        <div class="forte"></div>
+                        <div class="parametro-senha-textos">
+                            <p>fraca</p>
+                            <p>medio</p>
+                            <p>forte</p>
+                        </div>
                     </div>
                 <div class="parametro-senha">
                     <h4 class="parametro-senha-titulo">Caracteristicas da senha</h4>
                     <div class="parametro-senha-chekbox">
+                        <input name="maiusculo" type="checkbox" class="chekbox" >
+                        <label for="maiusculo"> Letras maiúscula</label>
+                    </div>
+                    <div class="parametro-senha-chekbox">
                         <input name="maiusculo" type="checkbox" class="chekbox">
-                        <label for="maiusculo"> Letras maiuscula</label>
+                        <label for="maiusculo"> Letras minusculas</label>
+                    </div>
+                    <div class="parametro-senha-chekbox">
+                        <input name="maiusculo" type="checkbox" class="chekbox" checked>
+                        <label for="maiusculo"> Numero </label>
+                    </div>
+                    <div class="parametro-senha-chekbox">
+                        <input name="maiusculo" type="checkbox" class="chekbox">
+                        <label for="maiusculo"> Simbolos</label>
                     </div>
                 </div>
         </div>
     </section>
-    
+    <script src="main.js"></script>
 </body>
 
-
+  
 
 
 </html>
